@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { AppRoute } from '../../const';
+
 export default function Header(): JSX.Element {
   return (
     <header className="page-header">
@@ -12,10 +15,10 @@ export default function Header(): JSX.Element {
           <nav>
             <ul className="header-navigation">
               <li className="header-navigation-item">
-                <a className="header-navigation-link header-navigation-link-active" href="">Прогнозирование</a>
+                <Link to={AppRoute.Root} className='header-navigation-link header-navigation-link-active'>Прогнозирование</Link>
               </li>
               <li className="header-navigation-item">
-                <a className="header-navigation-link" href="">Информация</a>
+                <Link to={AppRoute.About} className='header-navigation-link'>Информация</Link>
               </li>
             </ul>
           </nav>
