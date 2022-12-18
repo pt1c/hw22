@@ -1,14 +1,38 @@
-Разметка для участия в HackWagon22 - https://codenrock.com/contests/hackwagon22#/
+## Фронтенд для участия в HackWagon22
+https://codenrock.com/contests/hackwagon22#/
+
 Команда - uni_terminal_os
-Автор фронта - pt1c
 
-Стэк
-TypeScript
-React
-Redux (+ Thunk)
-Axios
-Jest (может быть и тесты напишу...)
+## Установка \\ Сборка проекта
+* NOTE: должен быть утсановлен Node >= 16v
+1. выполнить `npm i` 
+2. выполинить `npm run build`
+3. в папке `build` будет собраный бандл для выкладывания на любой web-server
 
+## Docker
+дла запуска в контейнере выполнить команду:\
+`docker-compose build` \
+дождаться выполнения сборки проекта\
+Поднять контейнер\
+ `docker-compose up`
 
-Картинки от https://unsplash.com/
-Иконки от https://www.flaticon.com/
+## Разработка
+Для целей разработки выполнить `npm run start` \
+Разработка остановлена, хотя сделано не много.\
+Как шаблон проект применим.\
+PR приветствуются.
+
+## Лицензии
+MIT. \
+Используйте как нравится, никакой ответственности авторы не несут.
+
+## Ресурсы (или спасибо вам)
+Картинки https://unsplash.com/ \
+Иконки https://www.flaticon.com/
+
+## Стэк
+TypeScript\
+React\
+Redux (+ Thunk)\
+Axios\
+Jest
