@@ -13,7 +13,7 @@ RUN npm run build
 # развертывание
 FROM nginx:alpine
 
-WORKDIR /usr/share/gninx/html
+WORKDIR /usr/share/nginx/html
 
 RUN rm -rf ./*
 
